@@ -1,0 +1,59 @@
+body {
+    display: grid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+#input_section {
+    display: grid;
+    height: 300px;
+    width: 600px;
+    border-radius: 15%;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    box-shadow: 5px 5px 10px 1px black;
+    margin-bottom: 50px;
+}
+
+#rock {
+    background-image: url(files/rock.png);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border-style: none;
+    margin: 25px;
+}
+
+#paper {
+    background-image: url(files/paper.png);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border-style: none;
+    margin: 25px;
+}
+
+#scissors {
+    background-image: url(files/scissors.png);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border-style: none;
+    margin: 25px;
+}
+
+#hours {
+    display: grid;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#score_section {
+    display: flex;
+    justify-content: right;
+}
+
+#result_section {
+    justify-self: center;
+}
